@@ -1,7 +1,10 @@
 package com.it.service;
 
-/**
- * Created by hp on 2016/5/20.
- */
+
+import org.springframework.transaction.annotation.Transactional;
+import javax.inject.Named;
+
+@Named
+@Transactional
 public class UserService {
 }

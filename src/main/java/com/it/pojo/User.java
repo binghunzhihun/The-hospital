@@ -16,7 +16,6 @@ public class User implements Serializable{
     private String tel;
     private String state;
     private String createtime;
-    private Integer roleid;
 
     public Integer getId() {
         return id;
@@ -74,11 +73,4 @@ public class User implements Serializable{
         this.createtime = createtime;
     }
 
-    public Integer getRoleid() {
-        return roleid;
-    }
-
-    public void setRoleid(Integer roleid) {
-        this.roleid = roleid;
-    }
 }

@@ -38,12 +38,12 @@
     <!--MyBaits-->
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="dataSource" ref="dataSource"/>
-        <property name="typeAliasesPackage" value="com.kaishengit.pojo"/>
+        <property name="typeAliasesPackage" value="com.it.pojo"/>
         <property name="mapperLocations" value="classpath*:mapper/*.xml"/>
     </bean>
 
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.kaishengit.mapper"/>
+        <property name="basePackage" value="com.it.mapper"/>
     </bean>
 
 

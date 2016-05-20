@@ -1,0 +1,13 @@
+com\it\service\ShiroRealm.class
+com\it\util\ShiroUtil.class
+com\it\exception\ForbiddenException.class
+com\it\dto\Message.class
+com\it\mapper\UserMapper.class
+com\it\pojo\Role.class
+com\it\util\Strings.class
+com\it\exception\NotFoundException.class
+com\it\util\Page.class
+com\it\service\UserService.class
+com\it\pojo\User.class
+com\it\mapper\RoleMapper.class
+com\it\controller\HomeController.class
